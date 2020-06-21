@@ -1,0 +1,51 @@
+.mock{
+    
+    border: 3px  solid black;
+    border-bottom: 0;
+    padding: 5px;
+    font-size: 20px;
+    font-family: monospace;
+}
+
+.wrapper{
+    border: 3px solid black;
+    margin-top: 1x;
+    height: 900px;
+}
+
+img{
+    width: 354px;
+    height: 280px;
+}
+
+.first{
+    border: 3px solid black;
+    margin: 20px 60px 0;
+    height: 200px;
+    background-color: green;    
+}
+
+.second, .third, .fourth{    
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 25px 10px 25px 60px;
+}
+
+.fifth, .sixth, .seventh{
+    border: 3px solid black;
+    display: inline-flex;
+    justify-content: flex-end;
+    margin: 25px 10px 25px 55px;
+    height: 280px;
+    width: 354px;
+} 
+
+.fifth{
+    background-color: orange;
+}
+.sixth{
+    background-color: rgb(170, 33, 33);
+}
+.seventh{
+    background-color: rgb(77, 178, 218);
+}
